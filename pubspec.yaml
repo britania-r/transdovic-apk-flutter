@@ -1,0 +1,33 @@
+name: transdovic_erp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.10.1
+  flutter_dotenv: ^6.0.0
+  google_fonts: ^6.3.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  google_maps_flutter: ^2.13.1
+  geolocator: ^14.0.2
+  http: ^1.5.0
+  google_api_headers: ^4.5.6
+  uuid: ^4.5.1
+  flutter_polyline_points: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
